@@ -20,7 +20,7 @@ namespace Delegater04
         }
         static bool Decision()
         {
-            Console.WriteLine("Stora eller små bokstäver?");
+            Console.Write("Stora eller små bokstäver?");
             string input = Console.ReadLine();
             return input.ToLower() == "stora";
         }

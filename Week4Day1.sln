@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4Day1", "Week4Day1\Week4Day1.csproj", "{38B4A1DF-7DDD-4C2A-9EC5-7CFE25D4681D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4Day1", "Week4Day1\Week4Day1.csproj", "{38B4A1DF-7DDD-4C2A-9EC5-7CFE25D4681D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoDelegates", "DemoDelegates\DemoDelegates.csproj", "{004253C1-BF84-484E-9B7F-9288E28A1375}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoDelegates", "DemoDelegates\DemoDelegates.csproj", "{004253C1-BF84-484E-9B7F-9288E28A1375}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegater01", "Delegater01\Delegater01.csproj", "{96CBC7EB-1AA2-4091-9EC6-8FD91BCFD8A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegater01", "Delegater01\Delegater01.csproj", "{96CBC7EB-1AA2-4091-9EC6-8FD91BCFD8A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegater02", "Delegater02\Delegater02.csproj", "{32E6F366-E0FF-4D76-8E99-792EB0C89C1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegater02", "Delegater02\Delegater02.csproj", "{32E6F366-E0FF-4D76-8E99-792EB0C89C1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegater03", "Delegater03\Delegater03.csproj", "{D84C3A74-EBD2-46CD-8CC8-16BAA04F0788}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegater03", "Delegater03\Delegater03.csproj", "{D84C3A74-EBD2-46CD-8CC8-16BAA04F0788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegater04", "Delegater04\Delegater04.csproj", "{D592D52E-6A8C-4919-8E2B-8BFB9508DF27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegater04", "Delegater04\Delegater04.csproj", "{D592D52E-6A8C-4919-8E2B-8BFB9508DF27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqCodeAlong", "LinqCodeAlong\LinqCodeAlong.csproj", "{CCAC1D57-692F-4B9C-839F-4348E395343A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D592D52E-6A8C-4919-8E2B-8BFB9508DF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D592D52E-6A8C-4919-8E2B-8BFB9508DF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D592D52E-6A8C-4919-8E2B-8BFB9508DF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCAC1D57-692F-4B9C-839F-4348E395343A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCAC1D57-692F-4B9C-839F-4348E395343A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCAC1D57-692F-4B9C-839F-4348E395343A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCAC1D57-692F-4B9C-839F-4348E395343A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
