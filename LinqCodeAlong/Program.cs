@@ -6,6 +6,13 @@ namespace LinqCodeAlong
 {
     class Program
     {
+        // Linq-metoder:
+        //      Where
+        //      OrderBy/OrderByDescending
+        //      ThenBy/ThenByDescending
+        //      Average
+
+
         static void Main(string[] args)
         {
             List<Person> people = new List<Person>();
@@ -34,14 +41,51 @@ namespace LinqCodeAlong
             people.Add(new Person("Kalle", "Cula", 1957));
 
 
-            var q = people
-                .Where((Person p) => p.BirthYear >= 1900);
+            var firstJohansson = people
+                .First(p => p.LastName == "Johansson");
 
+            Console.WriteLine(firstJohansson);
 
-            foreach (var aPerson in q)
+            var lastJohansson = people
+                .Last(p => p.LastName == "Johansson");
+            Console.WriteLine(lastJohansson);
+
+            var averageAge = people
+                .Where(p => p.BirthYear >= 1900)
+                .Average(p => p.Age);
+
+            Console.WriteLine(averageAge);
+
+            var j = people
+             .Where(p => p.LastName == "Johansson");
+
+            foreach (var item in j)
             {
-                Console.WriteLine(aPerson);
+                Console.WriteLine(item);
             }
+
+            var over100 = people
+                .Where(p => p.Age >= 100 && p.LastName[0] != 'B')
+                .OrderBy(p => p.BirthYear);
+
+            var a = people
+              .Where(p => p.BirthYear == 1957)
+              .OrderBy(p => p.LastName)
+              .ThenBy(p => p.FirstName);
+
+            foreach (var item in a)
+            {
+                Console.WriteLine(item);
+            }
+
+
+
+            foreach (var item in over100)
+            {
+                Console.WriteLine(item);
+            }
+
+
         }
 
     }
